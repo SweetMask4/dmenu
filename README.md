@@ -12,21 +12,7 @@ step 1 clone the repository
 git clone https://github.com/SweetMask4/dmenu.git ~/.config
 ```
 
-step 2 move the script
-``` shell
-mkdir -p ~/.local/bin
-mv ~/.config/dmenu/dm-run ~/.local/bin
-```
-
-
-step 3 add this to your .zshrc or .bashrc file so the script can be called from anywhere on your system
-``` shell
-if [ -d "$HOME/.local/bin" ] ;
-  then PATH="$HOME/.local/bin:$PATH"
-fi
-```
-
-step 4 and install dmenu
+step 2 and install dmenu
 ``` shell
 cd ~/.config/dmenu
 sudo make install
@@ -35,7 +21,7 @@ sudo make install
 to call dmenu use the dm-run command or add it to your WM or DE
 
 ``` shell
-dm-run
+dmenu-run
 ```
 the theme is configured in the config.def.h file
 
