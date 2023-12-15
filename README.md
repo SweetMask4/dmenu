@@ -23,6 +23,17 @@ to call dmenu use the dm-run command or add it to your WM or DE
 ``` shell
 dmenu-run
 ```
+
+# Recompile
+
+- You need to recompile dmenu after every change you make to its source code.
+
+```
+cd ~/.config/dmenu
+rm config.h
+sudo make install
+```
+
 the theme is configured in the config.def.h file
 
 # Patches
