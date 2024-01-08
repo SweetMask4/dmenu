@@ -45,3 +45,4 @@ the theme is configured in the config.def.h file
 - morecolor
 - mousesupport
 - numbers
+- barpadding
