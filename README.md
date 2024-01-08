@@ -3,7 +3,7 @@
 ## introduction
 this is my compilation of dmenu with improved search and colour schemes
 
-![dmenu](https://github.com/SweetMask4/dmenu/blob/main/screenshots/dmenu.png?raw=true)
+![dmenu](https://github.com/SweetMask4/dmenu/blob/main/screenshots/dmenu.jpg?raw=true)
 
 ## installation
 
